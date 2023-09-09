@@ -13,47 +13,35 @@ body {
 
 /*Navigation Styling*/
 
-.navbar {
+.main-navigation {
 	background: #000;
 	height: 100px;
-	color: #fff;
-}
-
-.navbar .nav-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	margin: 0 auto;
-	padding: 0 350px;
-	height: 100%;
 }
 
-.nav-container ul {
+.navigation-links {
 	list-style-type: none;
 	display: flex;
 }
 
-.nav-links li {
-	color: #fff;
+.navigation-links li {
 	margin-left: 30px;
 }
 
-.nav-links a {
+.navigation-links a {
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 1.2rem;
 }
 
-.nav-links a:hover {
+.navigation-links a:hover {
 	color: #cfcfcf;
 	border-bottom: 3px solid #ad8800;
 	padding-bottom: 10px;
-}
-
-.nav-logo img {
-	max-width: 100%;
 }
 
 /*Slideshow Styling*/
@@ -85,7 +73,40 @@ body {
 
 /* Link Tiles Section */
 
-.link-tiles {
-	display: flex;
+.navigation-tiles {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	height: 500px;
+	margin-top: 10px;
+}
+
+.navigation-tiles a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#brands {
+	background-image: url(assets/brands.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#taproom {
+	background-image: url(assets/taproom.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#events {
+	background-image: url(assets/events.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
