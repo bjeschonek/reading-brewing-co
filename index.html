@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
 	<title>Reading Brewing Co | Relax and have a beer.</title>
-	<!-- Prince Edward Island Brewing Company -->
 </head>
 
 <body>
@@ -29,29 +28,26 @@
 				<a href="events.html">Events</a>
 			</li>
 			<li>
-				<a href="about.html">About Us</a>
+				<a href="about.html">About</a>
 			</li>
 			<li>
-				<a href="contact.html">Contact Us</a>
+				<a href="contact.html">Contact</a>
 			</li>
 		</ul>
 	</nav>
 
 	<!-- Site Header -->
-	<!-- Possibly revert back to static header -->
-	<section class="slideshow">
-		<div class="slideshow-container">
-			<div class="slides fade">
-				<img src="assets/pouring_beer.jpg">
-			</div>
-			<div class="slides fade">
-				<img src="assets/bar_patrons.jpg">
-			</div>
-			<div class="slides fade">
-				<img src="assets/beer-taps.jpg">
-			</div>
+	<header class="slideshow-container">
+		<div class="slides fade">
+			<img src="assets/pouring_beer.jpg" alt="Woman pouring a glass of beer">
 		</div>
-	</section>
+		<div class="slides fade">
+			<img src="assets/bar_patrons.jpg" alt="Bar full of people">
+		</div>
+		<div class="slides fade">
+			<img src="assets/beer-taps.jpg" alt="Beer taps">
+		</div>
+	</header>
 
 	<!-- Navigation Tiles -->
 	<section class="navigation-tiles">
@@ -67,19 +63,29 @@
 	</section>
 
 	<!-- Featured Beer -->
-	<!-- May become a slideshow in future -->
-	<section class="featured-image">
-		<div class="image-text">
-			<p>Some text for now.</p>
-		</div>
+	<section class="featured-beer">
+		<img src="assets/featured-beer.jpg" alt="Our featured beer">
 	</section>
 
+	<!-- Events Section -->
 	<section class="events-section">
-		<div id="events-sidebar">
-
-		</div>
-		<div class="events-list">
-
+		<h1>Upcoming Events</h1>
+		<div class="events-container">
+			<div class="event">
+				<h2>36 Strings</h2>
+				<h3>September 30</h3>
+				<button class="event-button">More Info</button>
+			</div>
+			<div class="event">
+				<h2>Oktoberfest</h2>
+				<h3>October 9</h3>
+				<button class="event-button">More Info</button>
+			</div>
+			<div class="event">
+				<h2>Halloween Mayhem</h2>
+				<h3>October 31</h3>
+				<button class="event-button">More Info</button>
+			</div>
 		</div>
 	</section>
 
