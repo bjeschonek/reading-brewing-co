@@ -214,3 +214,111 @@ body {
 	transform: scale(1.1);
 	cursor: pointer;
 }
+
+/* Social Links Section */
+
+.social-section {
+	display: flex;
+	margin: 10px 0px 10px 0px;
+	background-color: black;
+}
+
+#beer-image img {
+	max-height: 500px;
+}
+
+#social-info {
+	background-color: black;
+	color: white;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+#email {
+	margin-bottom: 30px;
+}
+
+#email h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+#email p {
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+#email button {
+	color: white;
+	background-color: #ad8800;
+	padding: 20px;
+	margin-top: 20px;
+	width: 180px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#email button:hover {
+	opacity: 80%;
+	cursor: pointer;
+}
+
+#social h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+.social-button {
+	height: 50px;
+	width: 120px;
+	color: white;
+	background-color: #ad8800;
+	margin-top: 5px;
+	margin-right: 5px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.social-button:hover {
+	opacity: 80%;
+	cursor: pointer;
+}
+
+.site-footer {
+	background-color: #000;
+	color: #fff;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer-links {
+	display: flex;
+	list-style-type: none;
+}
+
+.footer-links li {
+	margin-left: 5px;
+}
+
+.footer-links a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.footer-links a:hover {
+	color: #ad8800;
+}
+
+.copyright a {
+	color: white;
+}
+
+.copyright a:hover{
+	color: #ad8800;
+}
